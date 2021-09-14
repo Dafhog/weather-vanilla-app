@@ -1,0 +1,91 @@
+html{
+    background-color: #f3edad;
+}
+
+#name{}
+#temperature{}
+#country{}
+#localtime{}
+#weather_descriptions{}
+#weather_icons{}
+#wind_speed{}
+
+
+
+body{
+    font-family: 'Circe', sans-serif;
+}
+
+.weather-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    top: calc(50% - 400px);
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    background-color: #111111;
+    padding: 30px;
+    color: white;
+
+}
+
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.btn{
+    margin: 20px;
+    border-radius: 50%;
+    border: none;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    /*transition: 0.2s ease-in-out;*/
+}
+
+input.search-input {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-size: 150%;
+    width: 1000px;
+    height: 80px;
+}
+
+.card{
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.card div{
+    font-size: 40px;
+    margin-bottom: 10px;
+    /*padding: 6px;*/
+}
+.card .name{
+    font-size: 110px;
+}
+
+.card .temperature{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+
